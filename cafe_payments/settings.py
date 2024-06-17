@@ -40,6 +40,9 @@ INSTALLED_APPS = [
     'products.apps.ProductsConfig',
     'checks.apps.ChecksConfig',
     'employees.apps.EmployeesConfig',
+    'customers.apps.CustomersConfig',
+    'rest_framework',
+    'phonenumber_field',
 ]
 
 MIDDLEWARE = [
