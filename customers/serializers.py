@@ -5,4 +5,4 @@ from .models import CustomerCard
 class CustomerCardSerializer(serializers.ModelSerializer):
     class Meta:
         model = CustomerCard
-        fields = ('name', 'surname', 'email', 'total_spent')
+        fields = '__all__'

@@ -18,9 +18,11 @@ from django.contrib import admin
 from django.urls import path
 from products.views import ProductAPIView
 from customers.views import CustomerCardAPIView
+from checks.views import CheckAPIView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/v1/productlist/', ProductAPIView.as_view()),
-    path('api/v1/add_customer_card/', CustomerCardAPIView.as_view())
+    path('api/v1/add_customer_card/', CustomerCardAPIView.as_view()),
+    path('api/v1/add_check/', CheckAPIView.as_view())
 ]

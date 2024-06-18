@@ -15,6 +15,7 @@ class CustomerCardAPIView(APIView):
             name = request.data['name'],
             surname = request.data['surname'],
             email = request.data['email'],
-            total_spent = 0
+            total_spent = 0,
+            discount = 0
         )
         return Response({'post': CustomerCardSerializer(card_new).data})
