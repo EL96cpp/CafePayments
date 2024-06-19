@@ -1,6 +1,8 @@
 from rest_framework.views import APIView
+from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated
+from rest_framework.authentication import TokenAuthentication
 from .models import CustomerCard
 from .serializers import CustomerCardSerializer
 
@@ -19,7 +21,8 @@ class CustomerCardAPIView(APIView):
             total_spent = 0,
             discount = 0
         )
-        return Response({'post': CustomerCardSerializer(card_new).data})
+        return Response({'post': CustomerCardSerializer(card_new).data}, status=status.HTTP_201_CREATED)
 
 
-permission_classes = (IsAuthenticated, )
+    permission_classes = (IsAuthenticated, )
+    authentication_classes = (TokenAuthentication, )

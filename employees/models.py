@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.auth.models import AbstractUser
 
 
 class Cafe(models.Model):
@@ -8,7 +9,4 @@ class Cafe(models.Model):
 
 
 class Employee(models.Model):
-    name = models.CharField(max_length=255, null=False)
-    surname = models.CharField(max_length=255, null=False)
-    cafe = models.ForeignKey('Cafe', on_delete=models.PROTECT)
-    password = models.CharField(max_length=255)
+    pass
