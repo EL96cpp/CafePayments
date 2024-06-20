@@ -9,10 +9,9 @@ from django.contrib.auth import authenticate
 class EmployeeLoginAPI(APIView):
     def post(self, request):
         print(request)
-        name = request.data.get('name')
-        surname = request.data.get('surname')
+        employee_id = request.data.get('employee_id')
         password = request.data.get('password')
-        user = authenticate(name=name, surname=surname, password=password)
+        user = authenticate(employee_id=employee_id, password=password)
 
         if user:
             return Response({'login': 'ok!'}, status=status.HTTP_200_OK)
