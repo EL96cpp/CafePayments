@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'checks.apps.ChecksConfig',
     'employees.apps.EmployeesConfig',
     'customers.apps.CustomersConfig',
+    'cafes.apps.CafesConfig',
     'rest_framework',
     'rest_framework.authtoken',
     'djoser',

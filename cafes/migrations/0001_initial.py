@@ -12,14 +12,12 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
-            name='CustomerCard',
+            name='Cafe',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('name', models.CharField(max_length=255)),
-                ('surname', models.CharField(max_length=255)),
-                ('email', models.EmailField(max_length=255, unique=True)),
-                ('total_spent', models.IntegerField(default=0)),
-                ('discount', models.SmallIntegerField(default=0)),
+                ('city', models.CharField(max_length=255)),
+                ('street', models.CharField(max_length=255)),
+                ('house_number', models.SmallIntegerField()),
             ],
         ),
     ]

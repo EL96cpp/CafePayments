@@ -1,0 +1,11 @@
+[
+    {"model": "cafes.cafe", "pk": 1, "fields": {"city": "Moscow", "street": "Abastract street", "house_number": 10}}, 
+    {"model": "cafes.cafe", "pk": 2, "fields": {"city": "Moscow", "street": "Example street", "house_number": 14}}, 
+    {"model": "cafes.cafe", "pk": 3, "fields": {"city": "Saratov", "street": "Abstract street", "house_number": 5}}, 
+    {"model": "cafes.cafe", "pk": 4, "fields": {"city": "Saratov", "street": "Example street", "house_number": 7}}, 
+    {"model": "cafes.cafe", "pk": 5, "fields": {"city": "Kaluga", "street": "Abstract street", "house_number": 11}},
+    {"model": "cafes.cafe", "pk": 6, "fields": {"city": "Kaluga", "street": "Example street", "house_number": 5}},
+    {"model": "cafes.cafe", "pk": 7, "fields": {"city": "Kursk", "street": "Abstract street", "house_number": 12}},
+    {"model": "cafes.cafe", "pk": 8, "fields": {"city": "Kurks", "street": "Example street", "house_number": 17}}  
+
+]

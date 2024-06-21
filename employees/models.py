@@ -3,12 +3,6 @@ from django.contrib.auth.models import AbstractBaseUser, BaseUserManager, Permis
 from django.utils import timezone
 
 
-class Cafe(models.Model):
-    city = models.CharField(max_length=255)
-    street = models.CharField(max_length=255)
-    house_number = models.SmallIntegerField()
-
-
 class EmployeeManager(BaseUserManager):
     def create_user(self, employee_id, first_name, last_name, password):
         if not employee_id:

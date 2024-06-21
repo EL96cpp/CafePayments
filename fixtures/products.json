@@ -1,0 +1,35 @@
+[
+    {"model": "products.product", "pk": 1, "fields": 
+    {"title": "Donut", "description": "Simple donut without filling.", "type": 3, "price": 120}},
+    {"model": "products.product", "pk": 2, "fields": 
+    {"title": "Strawberry Donut", "description": "Donut with strawberry filling.", "type": 3, "price": 200}},
+    {"model": "products.product", "pk": 3, "fields": 
+    {"title": "Chocolate donut", "description": "Donut with chocolate filling.", "type": 3, "price": 240}},
+    {"model": "products.product", "pk": 4, "fields": 
+    {"title": "Caramel donut", "description": "Donut with caramel filling.", "type": 3, "price": 270}},
+    {"model": "products.product", "pk": 5, "fields": 
+    {"title": "Chocolate cake", "description": "Chocolate cake.", "type": 3, "price": 280}},
+    {"model": "products.product", "pk": 6, "fields":
+    {"title": "Croissant", "description": "Simple croissant without filling.", "type": 3, "price": 100}},
+    {"model": "products.product", "pk": 7, "fields": 
+    {"title": "Chocolate croissant", "description": "Croissant with chocolate filling.", "type": 3, "price": 180}},
+    {"model": "products.product", "pk": 8, "fields": 
+    {"title": "Caramel croissant", "description": "Croissant with caramel filling.", "type": 3, "price": 21}},
+
+    {"model": "products.product", "pk": 9, "fields": 
+    {"title": "Americano", "description": "Americano coffee, 300ml.", "type": 1, "price": 180}},
+    {"model": "products.product", "pk": 10, "fields": 
+    {"title": "Latte", "description": "Latte coffee, 400ml.", "type": 1, "price": 210}},
+    {"model": "products.product", "pk": 11, "fields": 
+    {"title": "Espresso", "description": "Espresso coffee, 50ml.", "type": 1, "price": 140}},
+    
+    {"model": "products.product", "pk": 12, "fields": 
+    {"title": "Black tea", "description": "Black tea 400ml.", "type": 2, "price": 140}},
+    {"model": "products.product", "pk": 13, "fields": 
+    {"title": "Green tea", "description": "Green tea 400ml.", "type": 2, "price": 180}},
+    {"model": "products.product", "pk": 14, "fields":
+    {"title": "Milk Oolong", "description": "Milk Oonolg tea 400ml.", "type": 2, "price": 230}},
+    {"model": "products.product", "pk": 15, "fields": 
+    {"title": "Jasmine tea", "description": "Jasmine tea 400ml.", "type": 2, "price": 210}}
+
+]
