@@ -1,0 +1,13 @@
+[
+    {"model": "customers.customercard", "pk": 1, "fields": 
+    {"name": "Ivan", "surname": "Ivanov", "email": "examplemail@mail.ru", "total_spent": 0, "discount": 0}},
+    {"model": "customers.customercard", "pk": 2, "fields": 
+    {"name": "Pyotr", "surname": "Petrov", "email": "examplemail2@mail.ru", "total_spent": 0, "discount": 0}}, 
+    {"model": "customers.customercard", "pk": 3, "fields": 
+    {"name": "Olga", "surname": "Ivanova", "email": "examplemail3@mail.ru", "total_spent": 0, "discount": 0}},
+    {"model": "customers.customercard", "pk": 4, "fields": 
+    {"name": "Sergey", "surname": "Ivanov", "email": "examplemail4@mail.ru", "total_spent": 0, "discount": 0}},
+    {"model": "customers.customercard", "pk": 5, "fields": 
+    {"name": "Yana", "surname": "Petrova", "email": "examplemail5@mail.ru", "total_spent": 0, "discount": 0}}
+
+]
